@@ -1,7 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>asterNet library to support net Standard 2.0
+</Description>
+    <Copyright></Copyright>
+    <PackageProjectUrl>rebati.net/projects/asternet</PackageProjectUrl>
+    <RepositoryUrl>github.com/mrebati/asternet</RepositoryUrl>
+    <RepositoryType>Open Source</RepositoryType>
+    <PackageTags>asternet, asterisk, asterisk net core, asternet net core, asternet standard, asternet net standard, asterisk net standard</PackageTags>
+    <PackageReleaseNotes>AsterNet library to support net Standard 2.0</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
 </Project>
