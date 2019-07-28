@@ -1,4 +1,4 @@
-﻿[![Build Status](https://travis-ci.org/AsterNET/AsterNET.svg?branch=master)](https://travis-ci.org/AsterNET/AsterNET)
+﻿[![Build Status](https://api.travis-ci.org/mrebati/AsterNET.NetStandard.svg?branch=master)](https://travis-ci.org/mrebati/AsterNET.NetStandard)
 [![NuGet](https://img.shields.io/nuget/v/AsterNET.NetStandard.svg)](https://www.nuget.org/packages/AsterNET.NetStandard)
 
 AsterNET is an open source framework for Asterisk AMI and FastAGI. AsterNET allows you to talk to Asterisk AMI from any .NET application and create FastAGI applications in any .NET language.
