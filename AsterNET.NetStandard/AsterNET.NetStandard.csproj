@@ -6,14 +6,23 @@
 </Description>
     <Copyright></Copyright>
     <PackageProjectUrl>rebati.net/projects/asternet</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/MRebati/AsterNET.NetStandards</RepositoryUrl>
+    <RepositoryUrl>https://github.com/MRebati/AsterNET.NetStandard</RepositoryUrl>
     <RepositoryType>Open Source</RepositoryType>
     <PackageTags>asternet, asterisk, asterisk net core, asternet net core, asternet standard, asternet net standard, asterisk net standard</PackageTags>
     <PackageReleaseNotes>AsterNet library to support net Standard 2.0</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>MRebati</Authors>
     <Company>RebatiNet</Company>
-    <Version>1.0.1</Version>
+    <Version>1.0.3</Version>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="readme.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="readme.md" />
+  </ItemGroup>
 </Project>
