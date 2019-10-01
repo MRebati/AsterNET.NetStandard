@@ -1,6 +1,6 @@
 using System;
 
-namespace CDRManagement.DataAccess.AsterNet.FastAGI
+namespace AsterNET.NetStandard.FastAGI
 {
 	/// <summary>
 	/// The BaseAGIScript provides some convinience methods to make it easier to

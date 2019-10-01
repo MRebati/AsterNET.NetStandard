@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using CDRManagement.DataAccess.AsterNet.Manager.Event;
-using CDRManagement.DataAccess.AsterNet.Manager.Response;
+using AsterNET.NetStandard.Manager.Event;
+using AsterNET.NetStandard.Manager.Response;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager
+namespace AsterNET.NetStandard.Manager
 {
     /// <summary>
     ///     Collection of ResponseEvent. Use in events generation actions.

@@ -2,7 +2,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-namespace CDRManagement.DataAccess.AsterNet.IO
+namespace AsterNET.NetStandard.IO
 {
 	/// <summary>
 	/// ServerSocket using standard socket classes.

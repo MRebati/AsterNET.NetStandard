@@ -1,4 +1,4 @@
-﻿namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+﻿namespace AsterNET.NetStandard.Manager.Action
 {
     /// <summary>
     ///     The ParkAction allows to send a Channel to a Parking lot.<br />

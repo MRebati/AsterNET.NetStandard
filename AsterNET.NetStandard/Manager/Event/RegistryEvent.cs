@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
 	/// <summary>
 	/// A RegistryEvent is triggered when this asterisk server attempts to register

@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     ///     Abstract base class for several agent related events.

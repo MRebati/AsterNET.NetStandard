@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     ///     A DNDStateEvent is triggered by the Zap channel driver when a channel enters

@@ -1,6 +1,6 @@
 using System;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Exceptions
+namespace AsterNET.NetStandard.Manager.Exceptions
 {
 	/// <summary>
 	/// A TimeoutException is thrown if a ManagerResponse is not received within the expected time period.

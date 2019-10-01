@@ -1,4 +1,4 @@
-﻿namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+﻿namespace AsterNET.NetStandard.Manager.Action
 {
     public class QueueReloadAction : ManagerAction
     {

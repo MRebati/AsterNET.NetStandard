@@ -1,6 +1,6 @@
 using System;
 
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.Command
+namespace AsterNET.NetStandard.FastAGI.Command
 {
 	/// <summary>
 	/// Deletes an entry in the Asterisk database for a given family and key.<br/>

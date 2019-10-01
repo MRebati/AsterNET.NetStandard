@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     ///     A JoinEvent is triggered when a channel joines a queue.<br />

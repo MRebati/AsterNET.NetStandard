@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.Command
+namespace AsterNET.NetStandard.FastAGI.Command
 {
 	/// <summary>
 	/// Returns the value of the given channel varible.<br/>

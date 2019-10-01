@@ -2,9 +2,9 @@ using System;
 using System.Collections;
 using System.Reflection;
 using System.Resources;
-using CDRManagement.DataAccess.AsterNet.FastAGI.Exceptions;
+using AsterNET.NetStandard.FastAGI.Exceptions;
 
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.MappingStrategies
+namespace AsterNET.NetStandard.FastAGI.MappingStrategies
 {
 	/// <summary>
 	/// A MappingStrategy that is configured via a resource bundle.<br/>

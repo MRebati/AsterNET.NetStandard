@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.FastAGI
+namespace AsterNET.NetStandard.FastAGI
 {
     public interface IMappingStrategy
     {

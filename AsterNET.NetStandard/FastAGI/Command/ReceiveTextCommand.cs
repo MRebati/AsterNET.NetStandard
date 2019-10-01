@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.Command
+namespace AsterNET.NetStandard.FastAGI.Command
 {
 	/// <summary>
 	/// Receives a string of text on a channel.<br/>

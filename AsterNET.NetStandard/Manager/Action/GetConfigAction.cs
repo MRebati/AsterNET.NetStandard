@@ -1,6 +1,6 @@
-using CDRManagement.DataAccess.AsterNet.Manager.Response;
+using AsterNET.NetStandard.Manager.Response;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+namespace AsterNET.NetStandard.Manager.Action
 {
     /// <summary>
     ///     The GetConfigAction sends a GetConfig command to the asterisk server.

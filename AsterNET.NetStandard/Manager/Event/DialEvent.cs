@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
 	/// <summary>
 	/// A dial event is triggered whenever a phone attempts to dial someone.<br/>

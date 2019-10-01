@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
 	/// <summary>
 	/// A RenameEvent is triggered when the name of a channel is changed.<br/>

@@ -1,4 +1,4 @@
-﻿namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+﻿namespace AsterNET.NetStandard.Manager.Action
 {
     /// <summary>
     ///     This action lets you execute any AGI command through the Manager interface

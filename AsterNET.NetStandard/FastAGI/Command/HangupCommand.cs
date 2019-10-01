@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.Command
+namespace AsterNET.NetStandard.FastAGI.Command
 {
 	/// <summary>
 	/// Hangs up the specified channel. If no channel name is given, hangs up the current channel.

@@ -1,7 +1,7 @@
 ﻿using System;
-using CDRManagement.DataAccess.AsterNet.Manager.Event;
+using AsterNET.NetStandard.Manager.Event;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+namespace AsterNET.NetStandard.Manager.Action
 {
     /*
         https://wiki.asterisk.org/wiki/display/AST/ConfBridge+10#ConfBridge10-ConfBridgeAsteriskManagerInterface%28AMI%29Events

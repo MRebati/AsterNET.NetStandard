@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace CDRManagement.DataAccess.AsterNet
+namespace AsterNET.NetStandard
 {
     public static class Common
     {

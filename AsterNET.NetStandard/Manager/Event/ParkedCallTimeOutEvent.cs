@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
 	/// <summary>
 	/// A ParkedCallTimeOutEvent is triggered when call parking times out for a given channel.<br/>

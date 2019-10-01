@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager
+namespace AsterNET.NetStandard.Manager
 {
     interface IActionVariable
     {

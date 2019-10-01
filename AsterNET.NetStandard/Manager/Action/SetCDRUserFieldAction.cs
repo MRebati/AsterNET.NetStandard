@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+namespace AsterNET.NetStandard.Manager.Action
 {
     /// <summary>
     ///     The SetCDRUserFieldAction causes the user field of the call detail record for the given channel to be changed.

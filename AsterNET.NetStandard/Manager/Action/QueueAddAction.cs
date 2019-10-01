@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+namespace AsterNET.NetStandard.Manager.Action
 {
     /// <summary>
     ///     The QueueAddAction adds a new member to a queue.<br />
@@ -58,6 +58,31 @@ namespace CDRManagement.DataAccess.AsterNet.Manager.Action
         }
 
         /// <summary>
+        ///     Creates a new QueueAddAction that adds a new member on the given
+        ///     interface to the given queue with the given penalty.
+        /// </summary>
+        /// <param name="queue">the name of the queue the new member will be added to</param>
+        /// <param name="iface">Sets the interface to add. To add a specific channel just use the channel name, e.g. "SIP/1234".</param>
+        /// <param name="memberName">the name of the the new member will be added to</param>
+        /// <param name="penalty">
+        ///     the penalty for this member.<br />
+        ///     The penalty must be a positive integer or 0 for no penalty. When calls are
+        ///     distributed members with higher penalties are considered last.
+        /// </param>
+        /// <param name="stateInterface">
+        ///     An alternate interface to be used to determine the state of the member
+        /// </param>
+        public QueueAddAction(string queue, string iface, string memberName, int penalty, string stateInterface)
+        {
+            this.Queue = queue;
+            this.Interface = iface;
+            this.MemberName = memberName;
+            this.Penalty = penalty;
+            this.StateInterface = stateInterface;
+        }
+
+
+        /// <summary>
         ///     Get the name of this action, i.e. "QueueAdd".
         /// </summary>
         public override string Action
@@ -94,5 +119,10 @@ namespace CDRManagement.DataAccess.AsterNet.Manager.Action
         ///     true if the queue member should be paused when added.
         /// </summary>
         public bool Paused { get; set; }
+
+        /// <summary>
+        ///     An alternate interface to be used to determine the state of the member
+        /// </summary>
+        public string StateInterface { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     ///     An AgentsEvent is triggered for each agent in response to an AgentsAction.<br />

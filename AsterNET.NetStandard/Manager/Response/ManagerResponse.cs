@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Response
+namespace AsterNET.NetStandard.Manager.Response
 {
     /// <summary>
     ///     Represents a response received from the Asterisk server as the result of a

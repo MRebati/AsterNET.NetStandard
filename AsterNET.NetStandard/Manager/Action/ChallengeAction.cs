@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+namespace AsterNET.NetStandard.Manager.Action
 {
     /// <summary>
     ///     The ChallengeAction requests a challenge from the server to use when logging

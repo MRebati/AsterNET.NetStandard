@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     ///     An AgentRingNoAnswerEvent is triggered when an agent is rung out.<br />

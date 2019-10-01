@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Response
+namespace AsterNET.NetStandard.Manager.Response
 {
     public class ExtensionStateResponse : ManagerResponse
     {

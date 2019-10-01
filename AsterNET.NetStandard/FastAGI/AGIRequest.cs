@@ -5,7 +5,7 @@ using System.Net;
 using System.Text.RegularExpressions;
 using System.Web;
 
-namespace CDRManagement.DataAccess.AsterNet.FastAGI
+namespace AsterNET.NetStandard.FastAGI
 {
     /// <summary>
     ///     Default implementation of the AGIRequest interface.

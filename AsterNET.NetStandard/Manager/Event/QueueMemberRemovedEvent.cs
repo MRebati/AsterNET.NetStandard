@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     /// A QueueMemberRemovedEvent is triggered when a queue member is removed from a queue.<br/>

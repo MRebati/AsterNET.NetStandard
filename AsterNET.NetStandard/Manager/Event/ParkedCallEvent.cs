@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
 	/// <summary>
 	/// A ParkedCallEvent is triggered when a channel is parked (in this case no

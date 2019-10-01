@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+namespace AsterNET.NetStandard.Manager.Action
 {
     /// <summary>
     ///     The ChangeMonitorAction changes the monitoring filename of a channel.

@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.Command
+namespace AsterNET.NetStandard.FastAGI.Command
 {
 	/// <summary>
 	/// Plays the given file, and waits for the user to press one of the given

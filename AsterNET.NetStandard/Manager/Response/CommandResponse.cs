@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Response
+namespace AsterNET.NetStandard.Manager.Response
 {
     /// <summary>
     ///     Corresponds to a CommandAction.<br />

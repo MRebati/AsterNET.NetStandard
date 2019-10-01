@@ -1,9 +1,9 @@
 using System.Threading;
-using CDRManagement.DataAccess.AsterNet.Manager.Action;
-using CDRManagement.DataAccess.AsterNet.Manager.Event;
-using CDRManagement.DataAccess.AsterNet.Manager.Response;
+using AsterNET.NetStandard.Manager.Action;
+using AsterNET.NetStandard.Manager.Event;
+using AsterNET.NetStandard.Manager.Response;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager
+namespace AsterNET.NetStandard.Manager
 {
     /// <summary>
     ///     A combinded event and response handler that adds received events and the response to a ResponseEvents object.

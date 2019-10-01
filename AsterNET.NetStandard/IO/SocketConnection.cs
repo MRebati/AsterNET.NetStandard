@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-namespace CDRManagement.DataAccess.AsterNet.IO
+namespace AsterNET.NetStandard.IO
 {
 	public class SocketConnection
 	{

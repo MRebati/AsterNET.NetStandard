@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.Script
+namespace AsterNET.NetStandard.FastAGI.Script
 {
 	class AGINoAction : AGIScript
 	{

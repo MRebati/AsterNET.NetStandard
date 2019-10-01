@@ -1,11 +1,11 @@
 using System;
 using System.IO;
 using System.Threading;
-using CDRManagement.DataAccess.AsterNet.FastAGI.Command;
-using CDRManagement.DataAccess.AsterNet.FastAGI.Exceptions;
-using CDRManagement.DataAccess.AsterNet.IO;
+using AsterNET.NetStandard.FastAGI.Command;
+using AsterNET.NetStandard.FastAGI.Exceptions;
+using AsterNET.NetStandard.IO;
 
-namespace CDRManagement.DataAccess.AsterNet.FastAGI
+namespace AsterNET.NetStandard.FastAGI
 {
     /// <summary>
     ///     An AGIConnectionHandler is created and run by the AGIServer whenever a new

@@ -1,6 +1,6 @@
-using CDRManagement.DataAccess.AsterNet.FastAGI;
+using AsterNET.NetStandard.FastAGI;
 
-namespace CDRManagement.DataAccess.AsterNet.Util
+namespace AsterNET.NetStandard.Util
 {
 	/// <summary>
 	/// A TaskThread sits in a loop, asking the pool for a job, and servicing it.

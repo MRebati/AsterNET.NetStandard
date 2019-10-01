@@ -1,9 +1,9 @@
 using System.IO;
-using CDRManagement.DataAccess.AsterNet.FastAGI.Command;
-using CDRManagement.DataAccess.AsterNet.FastAGI.Exceptions;
-using CDRManagement.DataAccess.AsterNet.IO;
+using AsterNET.NetStandard.FastAGI.Command;
+using AsterNET.NetStandard.FastAGI.Exceptions;
+using AsterNET.NetStandard.IO;
 
-namespace CDRManagement.DataAccess.AsterNet.FastAGI
+namespace AsterNET.NetStandard.FastAGI
 {
     /// <summary>
     ///     Default implementation of the AGIWriter interface.

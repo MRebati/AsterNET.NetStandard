@@ -1,6 +1,6 @@
 using System;
 
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.Exceptions
+namespace AsterNET.NetStandard.FastAGI.Exceptions
 {
 	/// <summary>
 	/// Abstract base class for all AGI specific exceptions.

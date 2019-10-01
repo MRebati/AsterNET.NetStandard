@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     /// A ParkedCallsCompleteEvent is triggered after all parked calls have been reported in response to a ParkedCallsAction.

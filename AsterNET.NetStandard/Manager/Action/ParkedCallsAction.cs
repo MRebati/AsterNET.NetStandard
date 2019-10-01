@@ -1,7 +1,7 @@
 using System;
-using CDRManagement.DataAccess.AsterNet.Manager.Event;
+using AsterNET.NetStandard.Manager.Event;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+namespace AsterNET.NetStandard.Manager.Action
 {
     /// <summary>
     ///     The ParkedCallsAction requests a list of all currently parked calls.<br />

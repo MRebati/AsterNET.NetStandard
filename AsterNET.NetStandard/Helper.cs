@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Reflection;
 using System.Text;
-using CDRManagement.DataAccess.AsterNet.Manager;
-using CDRManagement.DataAccess.AsterNet.Manager.Event;
-using CDRManagement.DataAccess.AsterNet.Manager.Exceptions;
-using CDRManagement.DataAccess.AsterNet.Manager.Response;
+using AsterNET.NetStandard.Manager;
+using AsterNET.NetStandard.Manager.Event;
+using AsterNET.NetStandard.Manager.Exceptions;
+using AsterNET.NetStandard.Manager.Response;
 
-namespace CDRManagement.DataAccess.AsterNet
+namespace AsterNET.NetStandard
 {
     internal class Helper
     {

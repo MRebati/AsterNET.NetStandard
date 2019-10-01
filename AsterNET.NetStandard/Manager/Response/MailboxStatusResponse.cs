@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Response
+namespace AsterNET.NetStandard.Manager.Response
 {
     /// <summary>
     ///     A MailboxStatusResponse is sent in response to a MailboxStatusAction and indicates if a set

@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.Exceptions
+namespace AsterNET.NetStandard.FastAGI.Exceptions
 {
 	/// <summary>
 	/// The AGIHangupException is thrown if the channel has been hang up while processing the AGIRequest.

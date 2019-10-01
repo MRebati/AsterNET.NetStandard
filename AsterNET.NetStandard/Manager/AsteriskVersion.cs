@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager
+namespace AsterNET.NetStandard.Manager
 {
     public enum AsteriskVersion
     {

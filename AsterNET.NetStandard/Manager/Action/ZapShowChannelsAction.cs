@@ -1,7 +1,7 @@
 using System;
-using CDRManagement.DataAccess.AsterNet.Manager.Event;
+using AsterNET.NetStandard.Manager.Event;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+namespace AsterNET.NetStandard.Manager.Action
 {
     /// <summary>
     ///     The ZapShowChannelsAction requests the state of all zap channels.<br />

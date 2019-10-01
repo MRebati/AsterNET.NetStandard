@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     ///     A DBGetResponseEvent is sent in response to a DBGetAction and contains the entry that was queried.<br />

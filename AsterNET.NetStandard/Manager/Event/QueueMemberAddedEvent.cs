@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     /// A QueueMemberAddedEvent is triggered when a queue member is added to a queue.<br/>

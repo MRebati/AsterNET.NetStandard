@@ -1,6 +1,6 @@
 using System;
 
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.Exceptions
+namespace AsterNET.NetStandard.FastAGI.Exceptions
 {
 	/// <summary>
 	/// The AGINetworkException usally wraps an IOException denoting a network problem when talking to the Asterisk server.

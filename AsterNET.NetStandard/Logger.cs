@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet
+namespace AsterNET.NetStandard
 {
 #if LOGGER
 

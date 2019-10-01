@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     /// A QueueCallerLeaveEvent is triggered when a channel leaves a queue.<br/>

@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.Exceptions
+namespace AsterNET.NetStandard.FastAGI.Exceptions
 {
 	/// <summary>
 	/// An InvalidCommandSyntaxException is thrown when the reader receives a reply with status code 520.

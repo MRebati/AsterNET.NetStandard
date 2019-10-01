@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Threading;
-using CDRManagement.DataAccess.AsterNet.FastAGI;
+using AsterNET.NetStandard.FastAGI;
 
-namespace CDRManagement.DataAccess.AsterNet.Util
+namespace AsterNET.NetStandard.Util
 {
 	/// <summary>
 	/// A fixed sized thread pool.

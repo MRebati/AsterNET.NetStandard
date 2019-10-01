@@ -2,11 +2,11 @@ using System;
 using System.IO;
 using System.Net;
 using System.Text;
-using CDRManagement.DataAccess.AsterNet.FastAGI.MappingStrategies;
-using CDRManagement.DataAccess.AsterNet.IO;
-using CDRManagement.DataAccess.AsterNet.Util;
+using AsterNET.NetStandard.FastAGI.MappingStrategies;
+using AsterNET.NetStandard.IO;
+using AsterNET.NetStandard.Util;
 
-namespace CDRManagement.DataAccess.AsterNet.FastAGI
+namespace AsterNET.NetStandard.FastAGI
 {
     public class AsteriskFastAGI
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Xml.Serialization;
-using CDRManagement.DataAccess.AsterNet.FastAGI.Exceptions;
+using AsterNET.NetStandard.FastAGI.Exceptions;
 
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.MappingStrategies
+namespace AsterNET.NetStandard.FastAGI.MappingStrategies
 {
 
     internal class MappingAssembly

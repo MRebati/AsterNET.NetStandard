@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using CDRManagement.DataAccess.AsterNet.Manager.Event;
+using AsterNET.NetStandard.Manager.Event;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+namespace AsterNET.NetStandard.Manager.Action
 {
     /// <summary>
     ///     The OriginateAction generates an outgoing call to the extension in the given

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     /// Abstract base class for all Events that can be received from the Asterisk server.<br/>

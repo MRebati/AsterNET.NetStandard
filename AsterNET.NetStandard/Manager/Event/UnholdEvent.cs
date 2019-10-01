@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
     /// <summary>
     /// An UnholdEvent is triggered by the SIP channel driver when a channel is no longer put on hold.<br/>

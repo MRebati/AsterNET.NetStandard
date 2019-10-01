@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace CDRManagement.DataAccess.AsterNet.FastAGI.Command
+namespace AsterNET.NetStandard.FastAGI.Command
 {
 	/// <summary>
 	/// Plays the given file, allowing playback to be interrupted by the given

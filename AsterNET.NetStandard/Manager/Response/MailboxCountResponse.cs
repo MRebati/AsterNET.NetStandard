@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Response
+namespace AsterNET.NetStandard.Manager.Response
 {
     /// <summary>
     ///     A MailboxCountResponse is sent in response to a MailboxCountAction and contains the number of old

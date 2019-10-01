@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
 	/// <summary>
 	/// A BridgeEvent is triggered when a link between two voice

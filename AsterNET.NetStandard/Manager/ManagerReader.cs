@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.Sockets;
 using System.Threading;
-using CDRManagement.DataAccess.AsterNet.IO;
-using CDRManagement.DataAccess.AsterNet.Manager.Action;
-using CDRManagement.DataAccess.AsterNet.Manager.Event;
-using CDRManagement.DataAccess.AsterNet.Manager.Response;
+using AsterNET.NetStandard.IO;
+using AsterNET.NetStandard.Manager.Action;
+using AsterNET.NetStandard.Manager.Event;
+using AsterNET.NetStandard.Manager.Response;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager
+namespace AsterNET.NetStandard.Manager
 {
 	/// <summary>
 	///     Default implementation of the ManagerReader interface.

@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Response
+namespace AsterNET.NetStandard.Manager.Response
 {
     /// <summary>
     ///     Corresponds to a ChallengeAction and contains the challenge needed to log in using challenge/response.

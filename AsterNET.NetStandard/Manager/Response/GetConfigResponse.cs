@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Response
+namespace AsterNET.NetStandard.Manager.Response
 {
     /// <summary>
     ///     Response that is received when sending a GetConfigAction.<br />

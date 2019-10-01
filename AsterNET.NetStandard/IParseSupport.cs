@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CDRManagement.DataAccess.AsterNet
+namespace AsterNET.NetStandard
 {
     internal interface IParseSupport
     {

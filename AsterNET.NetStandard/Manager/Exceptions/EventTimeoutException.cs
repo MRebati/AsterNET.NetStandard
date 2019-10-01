@@ -1,4 +1,4 @@
-namespace CDRManagement.DataAccess.AsterNet.Manager.Exceptions
+namespace AsterNET.NetStandard.Manager.Exceptions
 {
 	/// <summary>
 	/// An EventTimeoutException is thrown if a ManagerResponse or some

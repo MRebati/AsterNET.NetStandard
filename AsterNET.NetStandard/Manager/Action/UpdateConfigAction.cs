@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using CDRManagement.DataAccess.AsterNet.Manager.Response;
+using AsterNET.NetStandard.Manager.Response;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Action
+namespace AsterNET.NetStandard.Manager.Action
 {
     /// <summary>
     ///     The UpdateConfigAction sends an UpdateConfig command to the asterisk server.
@@ -21,15 +21,18 @@ namespace CDRManagement.DataAccess.AsterNet.Manager.Action
     ///     Var-XXXXXX: Variable to work on<br />
     ///     Value-XXXXXX: Value to work on<br />
     ///     Match-XXXXXX: Extra match required to match line
+    ///     Line-XXXXXX: Line in category to operate on (used with delete and insert actions).
     /// </summary>
     public class UpdateConfigAction : ManagerActionResponse
     {
         public const string ACTION_NEWCAT = "newcat";
         public const string ACTION_RENAMECAT = "renamecat";
         public const string ACTION_DELCAT = "delcat";
+        public const string ACTION_EMPTYCAT = "emptycat";
         public const string ACTION_UPDATE = "update";
         public const string ACTION_DELETE = "delete";
         public const string ACTION_APPEND = "append";
+        public const string ACTION_INSERT = "insert";
 
         private readonly Dictionary<string, string> actions;
         private int actionCounter;
@@ -51,7 +54,7 @@ namespace CDRManagement.DataAccess.AsterNet.Manager.Action
         {
             SrcFileName = srcFilename;
             DstFileName = dstFilename;
-            this.Reload = reload;
+            Reload = reload;
         }
 
         /// <summary>
@@ -62,7 +65,7 @@ namespace CDRManagement.DataAccess.AsterNet.Manager.Action
         {
             SrcFileName = srcFilename;
             DstFileName = dstFilename;
-            this.Reload = (reload ? "true" : "");
+            Reload = (reload ? "true" : "");
         }
 
         /// <summary>
@@ -109,12 +112,13 @@ namespace CDRManagement.DataAccess.AsterNet.Manager.Action
         ///     incremented even if you supply a null for all parameters, though the action
         ///     will be unaffected.
         /// </summary>
-        /// <param name="action">Action to Take (NewCat,RenameCat,DelCat,Update,Delete,Append)</param>
+        /// <param name="action">Action to Take (NewCat,RenameCat,DelCat,EmptyCat,Update,Delete,Append,Insert)</param>
         /// <param name="category">Category to operate on</param>
         /// <param name="variable">Variable to work on</param>
         /// <param name="value">Value to work on</param>
         /// <param name="match">Extra match required to match line</param>
-        public void AddCommand(string action, string category, string variable, string value, string match)
+        /// <param name="line">Line in category to operate on (used with delete and insert actions).</param>
+        public void AddCommand(string action, string category, string variable, string value, string match, string line)
         {
             var i = actionCounter++;
             var index = i.ToString().PadLeft(6, '0');
@@ -133,31 +137,42 @@ namespace CDRManagement.DataAccess.AsterNet.Manager.Action
 
             if (!string.IsNullOrEmpty(match))
                 actions.Add("Match-" + index, match);
+
+            if (!string.IsNullOrEmpty(line))
+            {
+                var lineNumber = line.PadLeft(6, '0');
+                actions.Add("Line-" + index, lineNumber);
+            }
+        }
+
+        public void AddCommand(string action, string category, string variable, string value, string match)
+        {
+            AddCommand(action, category, variable, value, match, null);
         }
 
         public void AddCommand(string action, string category, string variable, string value)
         {
-            AddCommand(action, category, variable, value, null);
+            AddCommand(action, category, variable, value, null, null);
         }
 
         public void AddCommand(string action, string category, string variable)
         {
-            AddCommand(action, category, variable, null, null);
+            AddCommand(action, category, variable, null, null, null);
         }
 
         public void AddCommand(string action, string category)
         {
-            AddCommand(action, category, null, null, null);
+            AddCommand(action, category, null, null, null, null);
         }
 
         public void AddCommand(string action)
         {
-            AddCommand(action, null, null, null, null);
+            AddCommand(action, null, null, null, null, null);
         }
 
         public void AddCommand()
         {
-            AddCommand(null, null, null, null, null);
+            AddCommand(null, null, null, null, null, null);
         }
 
         #endregion

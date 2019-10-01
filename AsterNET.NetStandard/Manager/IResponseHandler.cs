@@ -1,7 +1,7 @@
-using CDRManagement.DataAccess.AsterNet.Manager.Action;
-using CDRManagement.DataAccess.AsterNet.Manager.Response;
+using AsterNET.NetStandard.Manager.Action;
+using AsterNET.NetStandard.Manager.Response;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager
+namespace AsterNET.NetStandard.Manager
 {
     /// <summary>
     ///     An Interface to handle responses received from an asterisk server.

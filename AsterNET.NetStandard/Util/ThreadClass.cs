@@ -1,6 +1,6 @@
 using System.Threading;
 
-namespace CDRManagement.DataAccess.AsterNet.Util
+namespace AsterNET.NetStandard.Util
 {
 	/// <summary>
 	/// Support class used to handle threads

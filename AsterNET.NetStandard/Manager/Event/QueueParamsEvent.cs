@@ -1,6 +1,6 @@
 using System;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Event
+namespace AsterNET.NetStandard.Manager.Event
 {
 	/// <summary>
 	/// A QueueParamsEvent is triggered in response to a QueueStatusAction and contains the parameters of a queue.<br/>

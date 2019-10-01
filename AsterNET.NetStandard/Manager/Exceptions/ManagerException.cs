@@ -1,6 +1,6 @@
 using System;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager.Exceptions
+namespace AsterNET.NetStandard.Manager.Exceptions
 {
 	/// <summary>
 	/// An ManagerException is thrown when a Manager Error Response.

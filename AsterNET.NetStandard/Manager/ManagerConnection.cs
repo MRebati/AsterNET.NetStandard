@@ -6,14 +6,14 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
-using CDRManagement.DataAccess.AsterNet.IO;
-using CDRManagement.DataAccess.AsterNet.Manager.Action;
-using CDRManagement.DataAccess.AsterNet.Manager.Event;
-using CDRManagement.DataAccess.AsterNet.Manager.Exceptions;
-using CDRManagement.DataAccess.AsterNet.Manager.Response;
-using TimeoutException = CDRManagement.DataAccess.AsterNet.Manager.Exceptions.TimeoutException;
+using AsterNET.NetStandard.IO;
+using AsterNET.NetStandard.Manager.Action;
+using AsterNET.NetStandard.Manager.Event;
+using AsterNET.NetStandard.Manager.Exceptions;
+using AsterNET.NetStandard.Manager.Response;
+using TimeoutException = AsterNET.NetStandard.Manager.Exceptions.TimeoutException;
 
-namespace CDRManagement.DataAccess.AsterNet.Manager
+namespace AsterNET.NetStandard.Manager
 {
     #region Event delegate
 
@@ -1944,7 +1944,7 @@ namespace CDRManagement.DataAccess.AsterNet.Manager
         /// Send action ans with timeout (milliseconds)
         /// </summary>
         /// <param name="action">action to send</param>
-        /// <param name="timeout">timeout in milliseconds</param>
+        /// <param name="timeOut">timeout in milliseconds</param>
         /// <returns></returns>
         public Response.ManagerResponse SendAction(ManagerAction action, int timeOut)
         {
