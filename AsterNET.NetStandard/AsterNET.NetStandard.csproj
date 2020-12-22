@@ -9,13 +9,14 @@
     <RepositoryUrl>https://github.com/MRebati/AsterNET.NetStandard</RepositoryUrl>
     <RepositoryType>Open Source</RepositoryType>
     <PackageTags>asternet, asterisk, asterisk net core, asternet net core, asternet standard, asternet net standard, asterisk net standard</PackageTags>
-    <PackageReleaseNotes>AsterNet library to support net Standard 2.0</PackageReleaseNotes>
+    <PackageReleaseNotes>AsterNet library to support net Standard 2.0
+- Added more linux support thanks to @johnye2e</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>MRebati</Authors>
     <Company>RebatiNet</Company>
-    <Version>2.2.0</Version>
-    <AssemblyVersion>2.2.0.0</AssemblyVersion>
-    <FileVersion>2.2.0.0</FileVersion>
+    <Version>2.2.1</Version>
+    <AssemblyVersion>2.2.1.0</AssemblyVersion>
+    <FileVersion>2.2.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
